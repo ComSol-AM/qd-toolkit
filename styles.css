@@ -1,0 +1,443 @@
+/* GLOBALS */
+.lt-blue {
+  color: #12b5ea;
+}
+
+.dk-blue {
+  color: #0494cb;
+}
+
+.green {
+  color: #86af15;
+}
+
+.red {
+  color: #A50A51;
+}
+
+.orange {
+  color: #ff6f0c;
+}
+
+.gray {
+  color: #494949;
+}
+
+.hide {
+  display: none !important;
+}
+
+.goal-wide {
+  grid-column: 2 / 2;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.hidden {
+  display: none;
+}
+
+.clear {
+  clear: both;
+}
+
+
+/* OVERRIDES */
+h4.category-data-contribution, 
+h4.category-policies-and-procedures,
+h4.category-data-infrastructure {
+  color: white;
+  padding: 12px;
+  margin-bottom: 6px;
+  margin-left: 3px;
+  background: #86af15 !important;
+}
+
+h4.category-policies-and-procedures {
+   background: #12b5ea !important;
+}
+
+h4.category-data-infrastructure {
+  background: #0494cb !important;
+}
+
+.qd-content-block .theme-block.wp-block-theme-blocks-posts {
+  left: 0;
+  margin-left: 0;
+  width: 100%;
+  margin-top: 0;
+}
+
+.qd-content-block .theme-block.wp-block-theme-blocks-posts div.wrap .query-posts {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 40px;
+}
+
+.qd-content-block .query-posts > .hentry {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+.qd-content-block .query-posts > .hentry.card .content {
+  padding: 12px;
+}
+
+.qd-content-block .category-data-contribution .thumbnail {
+  background: #86af15 !important;
+  margin-bottom: 0 !important;
+}
+
+.qd-content-block .category-policies-and-procedures .thumbnail  {
+  background: #12b5ea !important;
+  margin-bottom: 0 !important;
+}
+
+.qd-content-block .category-data-infrastructure .thumbnail  {
+  background: #0494cb !important;
+  margin-bottom: 0 !important;
+}
+
+.qd-content-block .hentry.card.type-hub-resource .post_type {
+  display: none !important;
+}
+
+.qd-content-block .hentry.card.type-hub-resource .title { 
+  font-size: 16px !important;
+  margin-bottom: 0;
+}
+
+.qd-content-block .hentry.card.type-hub-resource .excerpt p { 
+  font-size: 14px !important;
+}
+
+.post-banner, 
+.main-content .community-name,
+.main-content .subpages {
+  display: none;
+}
+
+.post-content {
+  max-width: 100%;
+}
+
+/* LAYOUT */
+
+
+nav.qd-subnav {
+  margin-top: 45px;
+  float: left;
+  width: 186px;
+  margin-right: 100px;
+}
+
+.sidebar-right {
+  float: right;
+  width: 160px;
+}
+
+.qd-content-block {
+  float: left;
+  margin-top: 30px;
+  width: 700px;
+}
+
+
+.qd-content-block h1 {
+  text-transform: none;
+  border-bottom: 0;
+}
+
+.sidebar {
+  float: right;
+  width: 180px;
+}
+
+
+/* NAV */
+
+
+nav.qd-subnav ul {
+ padding-inline-start: 0; 
+ list-style: none;
+}
+
+nav.qd-subnav li {
+ font-family: "Asap Condensed", system-ui;
+ font-size: 17px;
+ margin-bottom: 8px;
+}
+
+nav.qd-subnav li a {
+  color: #888888;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+nav.qd-subnav li a:hover {
+  color: #A50A51;
+}
+
+nav.qd-subnav li.selected a {
+  color: #0494cb;
+}
+
+nav.qd-subnav li.domains.first::before {
+  border-top: 1px solid #C2C2C2;
+  margin-top: 12px;
+  padding: 16px 0 8px;
+  display: block;
+  content: "Domains";
+  font-size: 14px;
+  font-family: "Raleway", system-ui;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #C2C2C2;
+}
+
+
+nav.qd-subnav .qd-toc {
+  margin-top: 15px;
+  border-left: 4px solid #0494cb;
+}
+
+nav.qd-subnav .qd-toc li {
+  font-size: 15px;
+  line-height: 19px;
+  margin-left: 16px;
+  margin-bottom: 15px;
+}
+
+nav.qd-subnav .qd-toc .scorecard-question-links a {
+  display: block;
+}
+
+nav.qd-subnav .qd-toc .question-link {
+  position: relative;
+  margin-top: 9px;
+  padding-left: 10px;
+}
+
+nav.qd-subnav .qd-toc .question-link::before {
+  position: absolute;
+  content: "";
+  top: 5px;
+  left: 0;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-left: 4px solid #0494cb;
+}
+
+.intro {
+  font-size: 24px;
+}
+
+.tbd {
+  margin: 30px 0;
+  padding: 30px;
+  background: #12b5ea;
+  text-align: center;
+  color: white;
+}
+
+p {
+  font-size: 17px;
+}
+
+h2 {
+  font-size: 32px;
+  color: #A50A51;
+}
+
+h3.qd-all-caps {
+  font-family: "Raleway", system-ui;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #888888;
+}
+
+h3 {
+  font-size: 22px;
+  color: #0494CB;
+}
+
+
+.qd-button {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 10px 30px 10px 15px;
+  position: relative;
+  background: #FF6F0C;
+  font-family: "Raleway", system-ui;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: none;
+  letter-spacing: normal;
+  text-decoration: none;
+  color: white;
+  animation-duration: 1s;
+}
+
+.qd-button:hover {
+  background: #A50A51; 
+}
+
+.qd-button::after {
+  position: absolute;
+  top: 50%x;
+  right: 13px;
+  content: " ";
+  width: 0px;
+  height: 0px;
+  margin-top: 6px;
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  border-left: 8px solid #fff;
+}
+
+hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-top: 1px solid #676767;
+}
+
+.qd-scorecard-section {
+  background: white;
+  padding: 30px;
+  margin-top: 5px;
+  margin-left: -30px;
+  margin-right: -30px;
+}
+
+.qd-scorecard-section h2 {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+.qd-scorecard-section .expandable:before {
+  display: none;
+}
+
+.qd-scorecard-section .expand-content {
+  margin-top: 9px;
+}
+
+h3.wp-block-heading.qd-all-caps {
+  margin-bottom: 48px;
+  font-weight: 500;
+}
+
+.qd-scorecard-question h5 {
+  font-family: "Raleway", system-ui;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: left;
+  color: #888888;
+}
+
+.qd-scorecard-question p {
+  padding: 0px;
+}
+
+.qd-scorecard-question {
+  padding: 18px;
+}
+
+.qd-scorecard-question p {
+  font-size: 18px;
+  font-style: italic;
+}
+
+.qd-scorecard-threshold-initial .wp-block-group__inner-container,
+.qd-scorecard-threshold-sustaining  .wp-block-group__inner-container{
+  padding: 30px 18px;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  column-gap: 20px;
+}
+
+.qd-scorecard-threshold-initial h5,
+.qd-scorecard-threshold-sustaining h5 {
+  font-size: 19px;
+  text-align: center;
+}
+
+
+.qd-scorecard-threshold-initial ul,
+.qd-scorecard-threshold-sustaining ul {
+  margin-bottom: 0;
+  padding-inline-start: 20px;
+}
+
+.qd-scorecard-threshold-initial p,
+.qd-scorecard-threshold-sustaining p,
+.qd-scorecard-threshold-initial li,
+.qd-scorecard-threshold-sustaining li {
+  font-size: 15px;
+  line-height: 21px;
+  margin-bottom: 9px;
+}
+
+.qd-scorecard-question {
+  position: relative;
+  background: #F4F4F4;
+  color: #494949;
+  margin-bottom: 10px;
+}
+
+.qd-scorecard-threshold-initial {
+  position: relative;
+  background: #88E3FF;
+  color: #494949;
+  margin-bottom: 10px;
+}
+
+.qd-scorecard-question::after,
+.qd-scorecard-threshold-initial::after  {
+  position: absolute;
+  left: 0;
+  bottom: -28px;
+  content: "";
+  border-top: 28px solid #F4F4F4;
+  border-right: 90px solid transparent;
+  border-left: 90px solid transparent;
+  z-index: 1000;
+}
+
+.qd-scorecard-threshold-initial::after  {
+  border-top-color: #88E3FF;
+}
+
+.qd-scorecard-threshold-sustaining {
+  background: #0494cb;
+  color: white;
+}
+
+.qd-callout {
+  margin: 40px 0;
+  position: relative;
+  background: white;
+  padding:  18px;
+  z-index: 1000;
+}
+
+.qd-callout::before {
+  position: absolute;
+  left: -20px;
+  top: -20px;
+  content: "";
+  width: 120px;
+  height: 120px;
+  border-top: solid 20px #ff6f0c;
+  border-left: solid 20px #ff6f0c;
+  z-index: -1;
+}
+
